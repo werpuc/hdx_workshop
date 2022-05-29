@@ -34,6 +34,12 @@ str(tmp)
 tmp %>%
   filter(Start == 15, End == 33)
 
+##!! Dla wywołań funkcji ponizej, sprawdź dostępne parametry 
+##!! w dokumenacji, i wskaż je. Sprawdź, jak zmieniają się wyniki
+##!! dla różnych parametrów.
+##!! Wykorzystaj pakiet ggplot2 do modyfikacji plotów -
+##!! zmień opisy osi, zakresy lub nałóż dane na siebie.
+
 ## Policz deuterium uptake dla wszystkich stanów.
 ?create_uptake_dataset
 uptake_dat <- create_uptake_dataset(dat)
